@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add -D @types/node
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\mongodb\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\OpenSSL-Win64\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PuTTY\;C:\wamp64\bin\php\php7.4.9;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\Android\AndroidSDK\platform-tools;D:\Android\AndroidSDK\tools;C:\wamp64\bin\mysql\mysql5.7.31\bin;C:\Users\zoey\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\zoey\AppData\Local\Microsoft\WindowsApps;C:\Users\zoey\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zoey\.dotnet\tools;C:\Program Files\JetBrains\PhpStorm 2020.1\bin;C:\Users\zoey\AppData\Roaming\Composer\vendor\bin;D:\flutter\bin;C:\Users\zoey\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\demo\vite-app\node_modules\esbuild\esbuild.exe'
+
+npm manifest: 
+  {
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc --noEmit && vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.0.5"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.2.3",
+      "@vue/compiler-sfc": "^3.0.5",
+      "typescript": "^4.3.2",
+      "vite": "^2.3.7",
+      "vue-tsc": "^0.0.24"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
